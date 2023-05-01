@@ -8,8 +8,8 @@
   home = {
 
     stateVersion = "22.05";
-    username = "thomas";
-    homeDirectory = "/home/thomas";
+    username = "makaso";
+    homeDirectory = "/home/makaso";
 
     packages = with pkgs;
     [

@@ -1,8 +1,8 @@
 FROM alpine:latest
 
-ARG DEFAULT_USER=thomas
-ARG DEFAULT_PASS=thomas
-ARG DOTFILES_REPO=https://github.com/thomasgoulet/nixpine.git
+ARG DEFAULT_USER=makaso
+ARG DEFAULT_PASS=makaso
+ARG DOTFILES_REPO=https://github.com/makaso/nixpine.git
 
 # Dependencies needed for nix installation / curl sudo tar xz
 # Group & user management / shadow openssl

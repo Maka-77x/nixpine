@@ -315,5 +315,5 @@ use completions *
 
 # Open ZelliJ session if not inside one
 if ($env | columns | where $it == ZELLIJ | is-empty) {
-  zellij attach -c thomas
+  zellij attach -c makaso
 }

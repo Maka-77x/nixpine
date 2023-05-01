@@ -23,12 +23,12 @@
     {
 
       defaultPackage.x86_64-linux = home-manager.defaultPackage.x86_64-linux;
-      homeConfigurations.thomas = home-manager.lib.homeManagerConfiguration {
+      homeConfigurations.makaso = home-manager.lib.homeManagerConfiguration {
 
         inherit pkgs;
 
         modules = [
-          ./home/thomas.nix
+          ./home/makaso.nix
         ];
 
       };
